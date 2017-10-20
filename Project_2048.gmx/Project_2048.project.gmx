@@ -17,6 +17,7 @@
       <sprite>sprites\spr_block_3</sprite>
       <sprite>sprites\spr_block_4</sprite>
       <sprite>sprites\spr_block_5</sprite>
+      <sprite>sprites\sprite44</sprite>
     </sprites>
     <sprites name="gate">
       <sprite>sprites\spr_gate_0</sprite>
@@ -49,41 +50,28 @@
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\sprite30</sprite>
     <sprite>sprites\sprite31</sprite>
+    <sprite>sprites\spr_end_h</sprite>
+    <sprite>sprites\spr_end_h_2</sprite>
+    <sprite>sprites\spr_end_h_3</sprite>
+    <sprite>sprites\spr_end_h_4</sprite>
+    <sprite>sprites\spr_end_h_5</sprite>
+    <sprite>sprites\spr_end_v</sprite>
+    <sprite>sprites\spr_end_v_2</sprite>
+    <sprite>sprites\spr_end_v_3</sprite>
+    <sprite>sprites\spr_end_v_4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
+    <background>background\bg_T</background>
+    <background>background\bg_1</background>
+    <background>background\bg_2</background>
+    <background>background\bg_3</background>
+    <background>background\bg_4</background>
+    <background>background\bg_5</background>
     <backgrounds name="Grid">
       <background>background\bg_white</background>
       <background>background\bg_white_square</background>
     </backgrounds>
-    <backgrounds name="End level bar">
-      <background>background\bg_trash_top_1</background>
-      <background>background\bg_trash_top_2</background>
-      <background>background\bg_trash_top_3</background>
-      <background>background\bg_trash_top_4</background>
-      <background>background\bg_trash_top_5</background>
-    </backgrounds>
-    <backgrounds name="End level code">
-      <background>background\bg_trash_botright_1</background>
-      <background>background\bg_trash_botright_2</background>
-      <background>background\bg_trash_botleft_1</background>
-      <background>background\bg_trash_botleft_2</background>
-      <background>background\bg_trash_topright_1</background>
-      <background>background\bg_trash_topright_2</background>
-      <background>background\bg_trash_topleft_1</background>
-      <background>background\bg_trash_topleft_2</background>
-      <background>background\bg_trash_rightup_1</background>
-      <background>background\bg_trash_rightup_2</background>
-      <background>background\bg_trash_rightdown_1</background>
-      <background>background\bg_trash_rightdown_2</background>
-      <background>background\bg_trash_leftup_1</background>
-      <background>background\bg_trash_leftup_2</background>
-      <background>background\bg_trash_leftdown_2</background>
-      <background>background\bg_trash_leftdown_1</background>
-    </backgrounds>
-    <background>background\bg_3</background>
-    <background>background\bg_2</background>
-    <background>background\bg_1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -106,6 +94,7 @@
     <object>objects\obj_main_menu</object>
     <object>objects\obj_exit</object>
     <object>objects\obj_entrance</object>
+    <object>objects\obj_variable_holder</object>
     <objects name="thin walls">
       <object>objects\obj_solid_thin</object>
       <object>objects\obj_solid_thin_v</object>
@@ -142,42 +131,42 @@
       <object>objects\obj_fblock_4</object>
       <object>objects\obj_fblock_5</object>
     </objects>
-    <object>objects\obj_variable_holder</object>
+    <objects name="level end">
+      <object>objects\obj_end_h_1</object>
+      <object>objects\obj_end_h_2</object>
+      <object>objects\obj_end_h_3</object>
+      <object>objects\obj_end_h_4</object>
+      <object>objects\obj_end_h_5</object>
+      <object>objects\obj_end_v_1</object>
+      <object>objects\obj_end_v_2</object>
+      <object>objects\obj_end_v_3</object>
+      <object>objects\obj_end_v_4</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
     <room>rooms\rm_main_menu</room>
-    <rooms name="Stuff levels!">
-      <room>rooms\room51</room>
-      <room>rooms\room52</room>
-      <room>rooms\room53</room>
-      <room>rooms\room50</room>
-      <room>rooms\room49</room>
+    <rooms name="T">
+      <room>rooms\rm_T_1</room>
+      <room>rooms\rm_T_2</room>
+      <room>rooms\rm_T_3</room>
+      <room>rooms\rm_T_4</room>
+      <room>rooms\rm_T_5</room>
+      <room>rooms\rm_T_6</room>
+      <room>rooms\rm_T_8</room>
+      <room>rooms\rm_T_9</room>
+      <room>rooms\rm_T_10</room>
+      <room>rooms\rm_T_11</room>
+      <room>rooms\rm_T_12</room>
     </rooms>
-    <rooms name="5x5 - 010">
-      <room>rooms\room40</room>
-      <room>rooms\room41</room>
-      <room>rooms\room42</room>
-      <room>rooms\room44</room>
-      <room>rooms\room47</room>
-    </rooms>
-    <rooms name="Moving entrance test">
-      <room>rooms\met1</room>
-      <room>rooms\met2</room>
-      <room>rooms\met3</room>
-    </rooms>
+    <room>rooms\rm_T_H_1</room>
+    <room>rooms\rm_H</room>
     <rooms name="World 1">
       <room>rooms\rm_1_1</room>
       <room>rooms\rm_1_2</room>
       <room>rooms\rm_1_3</room>
       <room>rooms\rm_1_4</room>
       <room>rooms\rm_1_5</room>
-      <room>rooms\rm_1_6</room>
-      <room>rooms\rm_1_8</room>
-      <room>rooms\rm_1_9</room>
-      <room>rooms\rm_1_10</room>
-      <room>rooms\rm_1_11</room>
-      <room>rooms\rm_1_12</room>
     </rooms>
     <rooms name="World 2">
       <room>rooms\rm_2_1</room>
@@ -194,12 +183,21 @@
       <room>rooms\rm_3_3</room>
       <room>rooms\rm_3_4</room>
       <room>rooms\rm_3_5</room>
-      <room>rooms\rm_3_6</room>
-      <room>rooms\rm_3_7</room>
-      <room>rooms\rm_3_8</room>
-      <room>rooms\rm_3_9</room>
-      <room>rooms\rm_3_10</room>
-      <room>rooms\rm_3_11</room>
+    </rooms>
+    <rooms name="World 4">
+      <room>rooms\rm_4_1</room>
+    </rooms>
+    <rooms name="World 5">
+      <room>rooms\rm_5_1</room>
+      <room>rooms\rm_5_2</room>
+      <room>rooms\rm_5_3</room>
+      <room>rooms\rm_5_4</room>
+      <room>rooms\rm_5_5</room>
+      <room>rooms\rm_5_6</room>
+      <room>rooms\rm_5_7</room>
+      <room>rooms\rm_5_8</room>
+      <room>rooms\rm_5_9</room>
+      <room>rooms\rm_5_10</room>
     </rooms>
     <room>rooms\rm_end</room>
     <rooms name="Drafts">
@@ -208,6 +206,11 @@
       <room>rooms\room_freeze</room>
       <room>rooms\room6</room>
       <room>rooms\room3</room>
+      <rooms name="Moving entrance test">
+        <room>rooms\met1</room>
+        <room>rooms\met2</room>
+        <room>rooms\met3</room>
+      </rooms>
     </rooms>
   </rooms>
   <help>

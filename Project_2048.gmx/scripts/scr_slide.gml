@@ -98,10 +98,33 @@ with (argument2){
     var dy = argument1;
     
     //collide with solid
+    var temp_blocked = false
     var broman = instance_position(x+dx, y+dy, obj_solid);
     if (instance_exists(broman)) {
-        if (broman.lvl != lvl) return(true);
+        if (broman.lvl != lvl) {
+            temp_blocked = true;
+        } else {
+            broman.x += 1000;
+            var broman2 = instance_position(x+dx, y+dy, obj_solid);
+            if (instance_exists(broman2)) {
+                if (broman2.lvl != lvl) {
+                    temp_blocked = true;
+                } else {
+                    broman2.x += 1000;
+                    var broman3 = instance_position(x+dx, y+dy, obj_solid);
+                    if (instance_exists(broman3)) {
+                        if (broman3.lvl != lvl) {
+                            temp_blocked = true;
+                        }
+                    }
+                    broman2.x -= 1000;
+                }
+            }
+            broman.x -= 1000;
+        }
     }
+    if (temp_blocked = true) return(true);
+    
     //collide with other block
     var broman = instance_position(x+dx, y+dy, obj_block);
     if (instance_exists(broman)) {
@@ -115,6 +138,7 @@ with (argument2){
     }
     return (false);
 }
+
 #define scr_exit_room_check
 
 //Prepare for exit

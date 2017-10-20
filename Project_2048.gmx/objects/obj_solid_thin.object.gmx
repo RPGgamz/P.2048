@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>event_inherited();
 mask_index = sprite_index;
+depth = 1;
 </string>
           </argument>
         </arguments>
