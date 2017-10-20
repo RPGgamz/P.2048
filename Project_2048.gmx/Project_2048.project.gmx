@@ -62,9 +62,12 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
-    <background>background\bg_3</background>
-    <background>background\bg_2</background>
+    <background>background\bg_T</background>
     <background>background\bg_1</background>
+    <background>background\bg_2</background>
+    <background>background\bg_3</background>
+    <background>background\bg_4</background>
+    <background>background\bg_5</background>
     <backgrounds name="Grid">
       <background>background\bg_white</background>
       <background>background\bg_white_square</background>
@@ -156,6 +159,8 @@
       <room>rooms\rm_T_11</room>
       <room>rooms\rm_T_12</room>
     </rooms>
+    <room>rooms\rm_T_H_1</room>
+    <room>rooms\rm_H</room>
     <rooms name="World 1">
       <room>rooms\rm_1_1</room>
       <room>rooms\rm_1_2</room>
@@ -163,6 +168,7 @@
       <room>rooms\rm_1_4</room>
       <room>rooms\rm_1_5</room>
     </rooms>
+    <room>rooms\room54</room>
     <rooms name="World 2">
       <room>rooms\rm_2_1</room>
       <room>rooms\rm_2_2</room>

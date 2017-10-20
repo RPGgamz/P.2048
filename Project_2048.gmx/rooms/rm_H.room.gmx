@@ -79,10 +79,18 @@ obj_camera.view_zoom = 6;</code>
     <instance objName="obj_end_v_1" x="84" y="18" name="inst_2925065D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_end_h_1" x="30" y="48" name="inst_73AC3BC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_end_h_1" x="54" y="48" name="inst_04EFEBD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_entrance" x="54" y="102" name="inst_707C2013" locked="0" code="entrance = 1;&#xA;dir = &quot;up&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="-6" y="18" name="inst_C56649D2" locked="0" code="target_room = rm_2_1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="90" y="18" name="inst_C6E4B595" locked="0" code="target_room = rm_1_1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="54" y="54" name="inst_829D2EB6" locked="0" code="target_room = rm_T_12;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_entrance" x="54" y="90" name="inst_707C2013" locked="0" code="entrance = 1;&#xA;dir = &quot;up&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="-18" y="18" name="inst_C56649D2" locked="0" code="target_room = rm_2_1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="102" y="18" name="inst_C6E4B595" locked="0" code="target_room = rm_1_1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="54" y="102" name="inst_829D2EB6" locked="0" code="entrance = 2;&#xA;target_room = rm_T_H_1;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid_thin_v" x="60" y="54" name="inst_16E6A253" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid_thin_v" x="48" y="54" name="inst_022EF4B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid_thin_v" x="36" y="54" name="inst_F1C44F0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid_thin_v" x="24" y="54" name="inst_D0C8C825" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid_thin_h" x="-6" y="24" name="inst_611EBFC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid_thin_h" x="-6" y="12" name="inst_8ECD143B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid_thin_h" x="90" y="12" name="inst_0B1BF9C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid_thin_h" x="90" y="24" name="inst_80D19796" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_grid" x="24" y="24" w="12" h="12" xo="0" yo="0" id="10001394" name="inst_F30B67D6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

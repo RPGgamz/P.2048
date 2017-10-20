@@ -28,7 +28,7 @@
             <string>mask_index = spr_square_mask;
 lvl = -1;
 invis = false;
-depth = 1;
+depth = -1;
 </string>
           </argument>
         </arguments>
