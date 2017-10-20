@@ -17,6 +17,7 @@
       <sprite>sprites\spr_block_3</sprite>
       <sprite>sprites\spr_block_4</sprite>
       <sprite>sprites\spr_block_5</sprite>
+      <sprite>sprites\sprite44</sprite>
     </sprites>
     <sprites name="gate">
       <sprite>sprites\spr_gate_0</sprite>
@@ -179,7 +180,7 @@
       <room>rooms\rm_3_5</room>
     </rooms>
     <rooms name="World 4">
-      <room>rooms\rm_3_8</room>
+      <room>rooms\rm_4_1</room>
     </rooms>
     <rooms name="World 5">
       <room>rooms\rm_5_1</room>
