@@ -11,7 +11,7 @@
   <colour>9092554</colour>
   <showcolour>-1</showcolour>
   <code>obj_camera.x = 24;
-obj_camera.y = 24;
+obj_camera.y = 18;
 obj_camera.view_zoom = 8;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
@@ -86,10 +86,10 @@ obj_camera.view_zoom = 8;</code>
     <tile bgName="bg_grid" x="24" y="24" w="12" h="12" xo="0" yo="0" id="10001176" name="inst_A403B84F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="12" y="0" w="12" h="12" xo="0" yo="0" id="10001184" name="inst_4D36B7D5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="24" y="0" w="12" h="12" xo="0" yo="0" id="10001185" name="inst_1B99D69B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_grid" x="36" y="0" w="12" h="12" xo="0" yo="0" id="10001189" name="inst_752E06C7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="36" y="12" w="12" h="12" xo="0" yo="0" id="10001190" name="inst_A5F65F0E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="36" y="24" w="12" h="12" xo="0" yo="0" id="10001191" name="inst_6F9D7E91" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="0" y="0" w="12" h="12" xo="0" yo="0" id="10001192" name="inst_BB530B1C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_grid" x="36" y="0" w="12" h="12" xo="0" yo="0" id="10001193" name="inst_9BEEE6B2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

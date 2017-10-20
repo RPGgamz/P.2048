@@ -147,10 +147,12 @@
   <rooms name="rooms">
     <room>rooms\rm_init</room>
     <room>rooms\rm_main_menu</room>
-    <rooms name="Moving entrance test">
-      <room>rooms\met1</room>
-      <room>rooms\met2</room>
-      <room>rooms\met3</room>
+    <rooms name="Stuff levels!">
+      <room>rooms\room51</room>
+      <room>rooms\room52</room>
+      <room>rooms\room53</room>
+      <room>rooms\room50</room>
+      <room>rooms\room49</room>
     </rooms>
     <rooms name="5x5 - 010">
       <room>rooms\room40</room>
@@ -158,6 +160,11 @@
       <room>rooms\room42</room>
       <room>rooms\room44</room>
       <room>rooms\room47</room>
+    </rooms>
+    <rooms name="Moving entrance test">
+      <room>rooms\met1</room>
+      <room>rooms\met2</room>
+      <room>rooms\met3</room>
     </rooms>
     <rooms name="World 1">
       <room>rooms\rm_1_1</room>
@@ -195,13 +202,6 @@
       <room>rooms\rm_3_11</room>
     </rooms>
     <room>rooms\rm_end</room>
-    <rooms name="Stuff levels!">
-      <room>rooms\room51</room>
-      <room>rooms\room52</room>
-      <room>rooms\room53</room>
-      <room>rooms\room50</room>
-      <room>rooms\room49</room>
-    </rooms>
     <rooms name="Drafts">
       <room>rooms\room_tutorial_agtigt</room>
       <room>rooms\room_lvl_0_blocks</room>
