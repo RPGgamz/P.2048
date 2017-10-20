@@ -59,7 +59,7 @@ obj_camera.view_zoom = 4;</code>
     <instance objName="obj_solid_3" x="36" y="48" name="inst_3D25E3B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_4" x="24" y="36" name="inst_C7B97F6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_4" x="24" y="12" name="inst_59D3CD3A" locked="0" code="invis = true;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="24" y="12" name="inst_485797D4" locked="0" code="entrance = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="24" y="-24" name="inst_485797D4" locked="0" code="entrance = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="24" y="108" name="inst_6F0EBC6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="36" y="96" name="inst_50497DF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="48" y="84" name="inst_CC6B3501" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -102,6 +102,7 @@ obj_camera.view_zoom = 4;</code>
     <instance objName="obj_solid_thin_h" x="72" y="66" name="inst_9A6E8E86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_h" x="36" y="42" name="inst_C95EA78B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_end_h_4" x="24" y="18" name="inst_A9BA8ED0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_entrance" x="24" y="-12" name="inst_DF28241C" locked="0" code="entrance = 1;&#xA;dir = &quot;down&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_grid" x="18" y="102" w="12" h="12" xo="0" yo="0" id="10001276" name="inst_9FBCA3A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
