@@ -67,10 +67,10 @@ obj_camera.view_zoom = 8;</code>
     <instance objName="obj_solid_thin_v" x="36" y="30" name="inst_C5ACC9CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_v" x="36" y="18" name="inst_8B13431C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_v" x="24" y="30" name="inst_8189C2E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solid_1" x="6" y="6" name="inst_2D752C6F" locked="0" code="invis = true;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_h" x="6" y="12" name="inst_1AD7AFAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_h" x="6" y="0" name="inst_4B265EA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_end_v_1" x="12" y="6" name="inst_985B5A73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solid_1" x="6" y="6" name="inst_2D752C6F" locked="0" code="invis = true;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit" x="6" y="6" name="inst_024EC992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
