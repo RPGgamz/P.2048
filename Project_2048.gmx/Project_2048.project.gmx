@@ -168,7 +168,6 @@
       <room>rooms\rm_1_4</room>
       <room>rooms\rm_1_5</room>
     </rooms>
-    <room>rooms\room54</room>
     <rooms name="World 2">
       <room>rooms\rm_2_1</room>
       <room>rooms\rm_2_2</room>
