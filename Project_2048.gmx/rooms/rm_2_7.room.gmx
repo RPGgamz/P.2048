@@ -105,6 +105,7 @@ obj_camera.view_zoom = 6;</code>
     <instance objName="obj_solid_thin_h" x="72" y="30" name="inst_928044F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_h" x="60" y="30" name="inst_2E4117A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_v" x="66" y="48" name="inst_5F47A2C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_end_h_4" x="24" y="78" name="inst_0BC108FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_grid" x="18" y="42" w="12" h="12" xo="0" yo="0" id="10001370" name="inst_420A677C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
