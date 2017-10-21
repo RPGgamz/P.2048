@@ -198,13 +198,13 @@ obj_camera.view_zoom = 7;</code>
   </instances>
   <tiles>
     <tile bgName="bg_grid" x="216" y="48" w="12" h="12" xo="0" yo="0" id="10001408" name="inst_D7903E16" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_grid" x="192" y="48" w="12" h="12" xo="0" yo="0" id="10001409" name="inst_6157B37C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_grid" x="228" y="48" w="12" h="12" xo="0" yo="0" id="10001409" name="inst_6157B37C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="204" y="48" w="12" h="12" xo="0" yo="0" id="10001410" name="inst_540A4B2B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="204" y="60" w="12" h="12" xo="0" yo="0" id="10001411" name="inst_5E2851D5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_grid" x="192" y="60" w="12" h="12" xo="0" yo="0" id="10001412" name="inst_C3C35D99" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_grid" x="228" y="60" w="12" h="12" xo="0" yo="0" id="10001412" name="inst_C3C35D99" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="216" y="60" w="12" h="12" xo="0" yo="0" id="10001413" name="inst_C2135E84" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="216" y="36" w="12" h="12" xo="0" yo="0" id="10001414" name="inst_5A52847F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_grid" x="192" y="36" w="12" h="12" xo="0" yo="0" id="10001415" name="inst_F003E69C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_grid" x="228" y="36" w="12" h="12" xo="0" yo="0" id="10001415" name="inst_F003E69C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="204" y="36" w="12" h="12" xo="0" yo="0" id="10001416" name="inst_E642DA32" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="216" y="144" w="12" h="12" xo="0" yo="0" id="10001417" name="inst_8653837C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grid" x="216" y="156" w="12" h="12" xo="0" yo="0" id="10001418" name="inst_41969D8F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
