@@ -167,6 +167,7 @@
       <room>rooms\rm_1_3</room>
       <room>rooms\rm_1_4</room>
       <room>rooms\rm_1_5</room>
+      <room>rooms\world_1</room>
     </rooms>
     <rooms name="World 2">
       <room>rooms\rm_2_1</room>
