@@ -59,6 +59,7 @@
     <sprite>sprites\spr_end_v_2</sprite>
     <sprite>sprites\spr_end_v_3</sprite>
     <sprite>sprites\spr_end_v_4</sprite>
+    <sprite>sprites\spr_camera_pos</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
@@ -95,6 +96,7 @@
     <object>objects\obj_exit</object>
     <object>objects\obj_entrance</object>
     <object>objects\obj_variable_holder</object>
+    <object>objects\obj_camera_pos</object>
     <objects name="thin walls">
       <object>objects\obj_solid_thin</object>
       <object>objects\obj_solid_thin_v</object>

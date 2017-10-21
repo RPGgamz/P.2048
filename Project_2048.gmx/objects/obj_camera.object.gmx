@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>///zoom init.
 view_zoom = 1;
-view_max_zoom = 10;
+keypoints = ds_list_create();
+camera_pos = noone;
 </string>
           </argument>
         </arguments>
@@ -50,15 +51,35 @@ view_max_zoom = 10;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///zoom view
+            <string>///Follow camera_pos (definately reitterate)
+if (instance_exists(obj_camera_pos)) {
+    x += (camera_pos.x - x) * .1;
+    y += (camera_pos.y - y) * .1;
+    zoom_diff = camera_pos.image_yscale*12 - view_hview
+    view_zoom -= sign(zoom_diff)*sqrt(abs(zoom_diff))*.05
+}
 
-
-var zoom_speed = .1;
-/*
-view_zoom += keyboard_check(ord("T"))*zoom_speed;
-view_zoom -= keyboard_check(ord("G"))*zoom_speed;
-*/
-view_zoom = clamp(view_zoom, 1, view_max_zoom);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Zoom view
 
 view_wview = obj_display.ideal_width/view_zoom;
 view_hview = obj_display.ideal_height/view_zoom;
@@ -82,10 +103,73 @@ view_hview = obj_display.ideal_height/view_zoom;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///view
-//the camera object is treated as the center of the puzzle
+            <string>///Move view to camera
+//The camera object is treated as the center of the puzzle
 view_xview = x - view_wview/2;
 view_yview = y - view_hview/2;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Find obj_camera_pos
+if (instance_exists(obj_camera_pos)) {
+    for (var i = 0; i &lt;= instance_number(obj_camera_pos)-1; i += 1) {
+        ds_list_add(keypoints, instance_find(obj_camera_pos, i))
+    }
+    camera_pos = ds_list_find_value(keypoints, 0);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Move between keypoints
+if (instance_exists(obj_camera_pos) &amp;&amp; (keyboard_key = ord("Q") || keyboard_key = ord("E"))) {
+    var current_camera_pos = ds_list_find_index(keypoints, camera_pos);
+    
+    var next_camera_pos = current_camera_pos+1
+    if (keyboard_key = ord("Q")) next_camera_pos -= 2
+    
+    //temporarily we just clamp the camera pos. It should eventually go to another room 
+    next_camera_pos = clamp(next_camera_pos, 0, ds_list_size(keypoints)-1);
+    
+    camera_pos = ds_list_find_value(keypoints, next_camera_pos);
+}
 </string>
           </argument>
         </arguments>
