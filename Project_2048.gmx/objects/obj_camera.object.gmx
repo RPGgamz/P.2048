@@ -53,10 +53,12 @@ camera_pos = noone;
             <kind>1</kind>
             <string>///Follow camera_pos (definately reitterate)
 if (instance_exists(obj_camera_pos)) {
-    x += (camera_pos.x - x) * .1;
-    y += (camera_pos.y - y) * .1;
+    
+    x += (camera_pos.x - x) * .10;
+    y += (camera_pos.y - y) * .10;
+    
     zoom_diff = camera_pos.image_yscale*12 - view_hview
-    view_zoom -= sign(zoom_diff)*sqrt(abs(zoom_diff))*.05
+    view_zoom -= sign(zoom_diff)*sqrt(abs(zoom_diff))*.05;
 }
 
 </string>
@@ -130,11 +132,38 @@ view_yview = y - view_hview/2;
           <argument>
             <kind>1</kind>
             <string>///Find obj_camera_pos
+ds_list_clear(keypoints);
 if (instance_exists(obj_camera_pos)) {
     for (var i = 0; i &lt;= instance_number(obj_camera_pos)-1; i += 1) {
         ds_list_add(keypoints, instance_find(obj_camera_pos, i))
     }
     camera_pos = ds_list_find_value(keypoints, 0);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (ds_exists(keypoints, ds_type_list)) {
+    ds_list_clear(keypoints);
+    show_debug_message("destroyed ds list");
 }
 </string>
           </argument>

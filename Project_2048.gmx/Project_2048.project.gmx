@@ -170,7 +170,6 @@
       <room>rooms\rm_1_3</room>
       <room>rooms\rm_1_4</room>
       <room>rooms\rm_1_5</room>
-      <room>rooms\world_1</room>
     </rooms>
     <rooms name="World 2">
       <room>rooms\rm_2_1</room>
@@ -180,7 +179,6 @@
       <room>rooms\rm_2_5</room>
       <room>rooms\rm_2_6</room>
       <room>rooms\rm_2_7</room>
-      <room>rooms\world_2</room>
     </rooms>
     <rooms name="World 3">
       <room>rooms\rm_3_1</room>
@@ -188,13 +186,11 @@
       <room>rooms\rm_3_3</room>
       <room>rooms\rm_3_4</room>
       <room>rooms\rm_3_5</room>
-      <room>rooms\world_3</room>
     </rooms>
     <rooms name="World 4">
       <room>rooms\rm_4_1</room>
     </rooms>
     <rooms name="World 5">
-      <room>rooms\world_5</room>
       <room>rooms\rm_5_1</room>
       <room>rooms\rm_5_2</room>
       <room>rooms\rm_5_3</room>
@@ -207,6 +203,11 @@
       <room>rooms\rm_5_10</room>
     </rooms>
     <room>rooms\rm_end</room>
+    <room>rooms\world_1</room>
+    <room>rooms\world_2</room>
+    <room>rooms\world_3</room>
+    <room>rooms\world_4</room>
+    <room>rooms\world_5</room>
     <rooms name="Drafts">
       <room>rooms\room_tutorial_agtigt</room>
       <room>rooms\room_lvl_0_blocks</room>
