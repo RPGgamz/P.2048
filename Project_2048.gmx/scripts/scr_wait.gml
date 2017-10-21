@@ -29,10 +29,10 @@ if (keyboard_check_pressed(vk_anykey)) {
             if (position_meeting(x,y,obj_camera.camera_pos) || !instance_exists(obj_camera.camera_pos)) {
                 if (!frozen) stop = false;
                 else stop = true;
-                // ---- Setting: blocks stuck after combine inside gates
+                // ----- Setting: blocks stuck after combine inside gates
                 var broman = instance_position(x, y, obj_solid);
                 if (instance_exists(broman)) if (broman.lvl != lvl) stop = true;
-                // ---- */
+                // ----- */
             }
             
             combine_lock = false
