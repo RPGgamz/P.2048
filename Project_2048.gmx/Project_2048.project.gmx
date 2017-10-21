@@ -191,6 +191,7 @@
       <room>rooms\rm_4_1</room>
     </rooms>
     <rooms name="World 5">
+      <room>rooms\world_5</room>
       <room>rooms\rm_5_1</room>
       <room>rooms\rm_5_2</room>
       <room>rooms\rm_5_3</room>
