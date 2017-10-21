@@ -177,6 +177,7 @@
       <room>rooms\rm_2_5</room>
       <room>rooms\rm_2_6</room>
       <room>rooms\rm_2_7</room>
+      <room>rooms\world_2</room>
     </rooms>
     <rooms name="World 3">
       <room>rooms\rm_3_1</room>
@@ -184,6 +185,7 @@
       <room>rooms\rm_3_3</room>
       <room>rooms\rm_3_4</room>
       <room>rooms\rm_3_5</room>
+      <room>rooms\world_3</room>
     </rooms>
     <rooms name="World 4">
       <room>rooms\rm_4_1</room>
