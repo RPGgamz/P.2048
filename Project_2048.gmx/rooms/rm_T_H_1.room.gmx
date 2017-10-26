@@ -66,13 +66,13 @@ obj_camera.view_zoom = 8;</code>
     <instance objName="obj_block" x="18" y="18" name="inst_1C8D5480" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_entrance" x="6" y="90" name="inst_1F59473D" locked="0" code="entrance = 1;&#xA;dir = &quot;up&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_end_h_1" x="18" y="0" name="inst_7474EEE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="18" y="-18" name="inst_35008EEF" locked="0" code="entrance = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="18" y="-42" name="inst_35008EEF" locked="0" code="entrance = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_v" x="12" y="54" name="inst_09BB6743" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_v" x="0" y="54" name="inst_64207230" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_v" x="24" y="-6" name="inst_00A7E993" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_thin_v" x="12" y="-6" name="inst_103A325C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit" x="6" y="102" name="inst_843ACBCF" locked="0" code="target_room = rm_T_12;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_entrance" x="18" y="-6" name="inst_EE98BCAB" locked="0" code="entrance = 2;&#xA;dir = &quot;down&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_entrance" x="18" y="-30" name="inst_EE98BCAB" locked="0" code="entrance = 2;&#xA;dir = &quot;down&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_grid" x="0" y="36" w="12" h="12" xo="0" yo="0" id="10001389" name="inst_C59DCB53" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
