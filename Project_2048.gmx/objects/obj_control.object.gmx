@@ -154,6 +154,7 @@ draw_text(300, 300, string(state));
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 */
+
 </string>
           </argument>
         </arguments>
