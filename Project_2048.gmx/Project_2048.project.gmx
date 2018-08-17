@@ -161,20 +161,13 @@
       <room>rooms\rm_1_6</room>
       <room>rooms\rm_T_11</room>
       <room>rooms\rm_T_12</room>
-      <room>rooms\world_T</room>
     </rooms>
-    <room>rooms\rm_T_H_1</room>
-    <room>rooms\rm_H</room>
-    <room>rooms\rm_T_2</room>
-    <room>rooms\rm_T_5</room>
-    <room>rooms\rm_T_6</room>
     <rooms name="World 1">
       <room>rooms\rm_1_1</room>
       <room>rooms\rm_1_2</room>
       <room>rooms\rm_1_3</room>
       <room>rooms\rm_1_4</room>
       <room>rooms\rm_1_5</room>
-      <room>rooms\room65</room>
     </rooms>
     <rooms name="World 2">
       <room>rooms\rm_2_1</room>
@@ -184,7 +177,6 @@
       <room>rooms\rm_2_5</room>
       <room>rooms\rm_2_6</room>
       <room>rooms\rm_2_7</room>
-      <room>rooms\room63</room>
     </rooms>
     <rooms name="World 3">
       <room>rooms\rm_3_1</room>
@@ -231,6 +223,14 @@
         <room>rooms\met3</room>
       </rooms>
     </rooms>
+    <room>rooms\room63</room>
+    <room>rooms\world_T</room>
+    <room>rooms\rm_T_H_1</room>
+    <room>rooms\rm_H</room>
+    <room>rooms\rm_T_2</room>
+    <room>rooms\rm_T_5</room>
+    <room>rooms\room65</room>
+    <room>rooms\rm_T_6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
